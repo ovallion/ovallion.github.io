@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+---
+layout: default
+---
+
+{% include header.html %}
+
+<div class="portfolio">
+    <h1>Web Design:</h1>
+    <ul>
+        {% for websites in site.data.websites %}
+        <li>
+            <a href="{{ websites.url }}">{{ websites.url }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+
+<div class="blog">
+    <h1>Blog Posts:</h1>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+=======
+<h1>Hello World!</h1>
+<h3>This is gonna be the Homepage for Avik.se</h3>
+>>>>>>> 7e628033cd5a9b1b4a34e16163ac040d5c0a865c
