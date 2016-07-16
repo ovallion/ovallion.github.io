@@ -4,7 +4,7 @@ title: Resource page number one
 ---
 
 
-# Basic Arguments
+## Basic Arguments
 
 This is a test, will be removed at a later stage…
 
