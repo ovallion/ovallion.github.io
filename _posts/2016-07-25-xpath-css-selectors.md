@@ -58,12 +58,7 @@ $$(”…statement…”)
 </html>
 ```
 
-
-
-# General targeting
-
-# this is a titel
-
+# **General targeting**
 
 # Direct child
 
@@ -121,7 +116,7 @@ Css:
     .first_class
     ```
 
-# Start walking the elements
+# **Start walking the elements**
 
 By combining xpath and/or Css selectors we can start walking the html elements and really focusing in on the parts that we are after.
 
