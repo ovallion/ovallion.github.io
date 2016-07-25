@@ -81,13 +81,13 @@ div > p
 All <p> elements that are inside a <div> element.
 
 XPath:
-```html
+```
 
 //div//p
 ```
 
 Css:
-```html
+```
 
 div p
 ```
@@ -98,7 +98,7 @@ div p
 All <p> elements with an id attribute value equal to ”firstname”
 
 XPath:
-```html
+```
 
 //p[@id=’firstname’]
 ```
@@ -112,13 +112,13 @@ Css:
 All elements with class=”first_class”
 
 XPath:
-```html
+```
 
 //div[@class=’first_class’]
 ```
 
 Css:
-```html
+```
 
 .first_class
 ```
@@ -132,7 +132,7 @@ By combining xpath and/or Css selectors we can start walking the html elements a
 Grab the second <p> within the target class ”first_class”
 
 XPath:
-```html
+```
 
 //div[@class=”first_class”]/p[1]
 
@@ -140,7 +140,7 @@ XPath:
 ```
 
 Css:
-```html
+```
 
 .first_class > p:nth-child(2)
 
@@ -154,7 +154,7 @@ So first we target the class and from there we grab the 2nd <p> tag (note that X
 Let’s get the 2nd element from the list with id of ”List_of_friends”
 
 XPath:
-```html
+```
 
 //ul[@=’List_of_friends’]/li[2]
 
