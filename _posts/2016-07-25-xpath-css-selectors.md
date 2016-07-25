@@ -27,8 +27,7 @@ $$(”…statement…”)
 
 *Example HTML*
 
-```html
-
+```
 <!DOCTYPE html>
 
 <html>
