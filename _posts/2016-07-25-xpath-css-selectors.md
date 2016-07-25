@@ -17,7 +17,7 @@ In the console prepend the statements with:
 
 XPath: 
 ```
-$X(”…statement…”)
+$X(”…statement…”)
 ```
 
 Css-selector:
@@ -172,19 +172,3 @@ Css:
 
 
 *to be cont…*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
