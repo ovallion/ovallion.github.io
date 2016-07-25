@@ -61,9 +61,9 @@ $$(”…statement…”)
 
 
 
-## General targeting (parachuting into the html)
+### General targeting (parachuting into the html)
 
-### Direct child
+#### Direct child
 
 All <p> elements where the parent is a <div> element.
 
@@ -77,7 +77,7 @@ Css:
     div > p
     ```
 
-### Child or subchild
+#### Child or subchild
 
 All <p> elements that are inside a <div> element.
 
@@ -92,7 +92,7 @@ Css:
     ```
 
 
-### Id
+#### Id
 
 All <p> elements with an id attribute value equal to ”firstname”
 
@@ -105,7 +105,7 @@ Css:
     ```
     #firstname
     ```
-### Class
+#### Class
 
 All elements with class=”first_class”
 
@@ -119,11 +119,11 @@ Css:
     .first_class
     ```
 
-## Start walking the elements
+### Start walking the elements
 
 By combining xpath and/or Css selectors we can start walking the html elements and really focusing in on the parts that we are after.
 
-### Class
+#### Class
 
 Grab the second <p> within the target class ”first_class”
 
@@ -141,7 +141,7 @@ Css:
 
 So first we target the class and from there we grab the 2nd <p> tag (note that XPath are zero based and css selectors are not).
 
-### Id
+#### Id
 
 Let’s get the 2nd element from the list with id of ”List_of_friends”
 
