@@ -66,11 +66,13 @@ All <p> elements where the parent is a <div> element.
 
 XPath: 
 ```html
+
 //div/p
 ```
 
 Css:
 ```html
+
 div > p
 ```
 
@@ -80,11 +82,13 @@ All <p> elements that are inside a <div> element.
 
 XPath:
 ```html
+
 //div//p
 ```
 
 Css:
 ```html
+
 div p
 ```
 
@@ -95,6 +99,7 @@ All <p> elements with an id attribute value equal to ”firstname”
 
 XPath:
 ```html
+
 //p[@id=’firstname’]
 ```
 
@@ -108,11 +113,13 @@ All elements with class=”first_class”
 
 XPath:
 ```html
+
 //div[@class=’first_class’]
 ```
 
 Css:
 ```html
+
 .first_class
 ```
 
@@ -126,13 +133,17 @@ Grab the second <p> within the target class ”first_class”
 
 XPath:
 ```html
+
 //div[@class=”first_class”]/p[1]
+
 —> 'paragraph with no id'
 ```
 
 Css:
 ```html
+
 .first_class > p:nth-child(2)
+
 —> 'paragraph with no id'
 ```
 
@@ -144,13 +155,17 @@ Let’s get the 2nd element from the list with id of ”List_of_friends”
 
 XPath:
 ```html
+
 //ul[@=’List_of_friends’]/li[2]
+
  —> 'Mickey'
 ```
 
 Css:
 ```
+
 #List_of_friends li:nth-of-type(2)
+
  —> ’Mickey’
 ```
 
