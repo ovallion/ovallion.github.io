@@ -18,18 +18,16 @@ In the console prepend the statements with:
 XPath: 
 ```
 $X(”…statement…”)
-
 ```
 
 Css-selector:
 ```
 $$(”…statement…”) 
-
 ```
 
 *Example HTML*
 
-```
+```html
 <!DOCTYPE html>
 
 <html>
@@ -61,22 +59,20 @@ $$(”…statement…”)
 ```
 
 
-# General targeting (parachuting into the html)
+## General targeting (parachuting into the html)
 
 ### Direct child
 
 All <p> elements where the parent is a <div> element.
 
 XPath: 
-```
+```html
 //div/p
-
 ```
 
 Css:
-```
+```html
 div > p
-
 ```
 
 ### Child or subchild
@@ -84,15 +80,13 @@ div > p
 All <p> elements that are inside a <div> element.
 
 XPath:
-```
+```html
 //div//p
-
 ```
 
 Css:
-```
+```html
 div p
-
 ```
 
 
@@ -101,33 +95,29 @@ div p
 All <p> elements with an id attribute value equal to ”firstname”
 
 XPath:
-```
+```html
 //p[@id=’firstname’]
-
 ```
 
 Css:
 ```
 #firstname
-
 ```
 ### Class
 
 All elements with class=”first_class”
 
 XPath:
-```
+```html
 //div[@class=’first_class’]
-
 ```
 
 Css:
-```
+```html
 .first_class
-
 ```
 
-# Start walking the elements
+## Start walking the elements
 
 By combining xpath and/or Css selectors we can start walking the html elements and really focusing in on the parts that we are after.
 
@@ -136,17 +126,15 @@ By combining xpath and/or Css selectors we can start walking the html elements a
 Grab the second <p> within the target class ”first_class”
 
 XPath:
-```
+```html
 //div[@class=”first_class”]/p[1]
 —> 'paragraph with no id'
-
 ```
 
 Css:
-```
+```html
 .first_class > p:nth-child(2)
 —> 'paragraph with no id'
-
 ```
 
 So first we target the class and from there we grab the 2nd <p> tag (note that XPath are zero based and css selectors are not).
@@ -156,17 +144,15 @@ So first we target the class and from there we grab the 2nd <p> tag (note that X
 Let’s get the 2nd element from the list with id of ”List_of_friends”
 
 XPath:
-```
+```html
 //ul[@=’List_of_friends’]/li[2]
 —> 'Mickey'
-
 ```
 
 Css:
-```
+```html
 #List_of_friends li:nth-of-type(2)
 —> ’Mickey’
-
 ```
 
 
