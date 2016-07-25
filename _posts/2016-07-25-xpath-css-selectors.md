@@ -58,10 +58,9 @@ $$(”…statement…”)
 </body>
 </html>
 ```
-
-
-
 ### General targeting (parachuting into the html)
+text text....
+text text....
 
 #### Direct child
 
