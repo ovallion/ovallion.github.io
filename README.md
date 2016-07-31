@@ -1,3 +1,3 @@
 # avik.se Home page
 
-Thit blog aims to write about Data Science, both some tutorials an some visulization projects.
+This is my first blog and I will do my best to write (hopefully somwhat understandably) about Data Science topics, both some tutorials and some visulization projects.
